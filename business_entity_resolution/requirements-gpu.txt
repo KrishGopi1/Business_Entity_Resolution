@@ -1,0 +1,5 @@
+# Only for the optional --dense / --cross stages (bi-encoder and cross-encoder), on a GPU machine.
+# Install after requirements.txt. Tested with Python 3.11. Licences in brackets.
+torch==2.14.0                  # BSD-3-Clause (the default Linux wheel includes CUDA)
+transformers==5.17.0           # Apache-2.0
+sentence-transformers==6.1.0   # Apache-2.0

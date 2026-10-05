@@ -1,0 +1,12 @@
+# Tested with Python 3.11. Licences in brackets.
+numpy==2.4.6                   # BSD-3-Clause
+pandas==3.0.6                  # BSD-3-Clause
+pyarrow==25.0.1                # Apache-2.0
+scipy==1.17.1                  # BSD-3-Clause
+scikit-learn==1.9.1            # BSD-3-Clause (HashingVectorizer only)
+joblib==1.6.0                  # BSD-3-Clause
+xgboost==3.2.0                 # Apache-2.0 (the matching model)
+rapidfuzz==3.14.6              # MIT
+sparse-dot-topn==1.2.0         # Apache-2.0 (top-k sparse products; needed for full-scale speed)
+indic-transliteration==2.3.82  # MIT
+pytest                         # MIT (tests only)
